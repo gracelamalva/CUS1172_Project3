@@ -1,5 +1,8 @@
 {
-    
+    "quizzes":[
+        {"id":1, "title": "quiz-1"},
+        {"id":2, "title": "quiz-2"}
+    ],
     "questions": [
         {"id": 1, "title": "Horoscopes accurately predict future events 85% of the time", "answer": "false"},
         {"id": 2, "title": "The National Weather Service will pay $30 for the rights to any original photograph of lightning", "answer": "false"},
@@ -23,6 +26,7 @@
         {"id": 20, "title": "After you die, your tongue continues to grow.", "answer": "false"}
 
     ],
+
     "answer_choices":[
         {"choice_1": "true"},
         {"choice_2": "false"}
