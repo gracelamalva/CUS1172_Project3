@@ -22,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const handle_form = (e) => {
     
-
     let data = new FormData(e.target);
 
     let name = data.get("name");
@@ -31,7 +30,7 @@ const handle_form = (e) => {
     
     console.log(name, quiz);
 
-    alert('hello' + name + "you chose" + quiz);
+    alert('hello ' + name + " you chose " + quiz);
 
 
     if (quiz === "quiz_1"){
@@ -46,11 +45,11 @@ const handle_vote = (e) => {
     console.log(e.target)
     let id = document.querySelector("#question-id").innerHTML;
     id = Number(id.split('')[1]);
-    let question = id.get(ques)
-    //let correct_ans = questions[id].answer;
-    console.log(questions)
+    
+  
 
-    console.log(correct_ans)
+    let correct_ans = questions[id].answer;
+    
 
     // let user_answers = []
     
